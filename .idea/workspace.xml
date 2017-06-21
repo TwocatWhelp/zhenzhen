@@ -3,7 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="0f89b922-1546-4d40-a470-9c30306a9f86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhenzhen/settings.py" afterPath="$PROJECT_DIR$/zhenzhen/settings.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/autumn.css" afterPath="$PROJECT_DIR$/static/css/highlights/autumn.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/borland.css" afterPath="$PROJECT_DIR$/static/css/highlights/borland.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/bw.css" afterPath="$PROJECT_DIR$/static/css/highlights/bw.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/colorful.css" afterPath="$PROJECT_DIR$/static/css/highlights/colorful.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/default.css" afterPath="$PROJECT_DIR$/static/css/highlights/default.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/emacs.css" afterPath="$PROJECT_DIR$/static/css/highlights/emacs.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/friendly.css" afterPath="$PROJECT_DIR$/static/css/highlights/friendly.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/fruity.css" afterPath="$PROJECT_DIR$/static/css/highlights/fruity.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/github.css" afterPath="$PROJECT_DIR$/static/css/highlights/github.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/manni.css" afterPath="$PROJECT_DIR$/static/css/highlights/manni.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/monokai.css" afterPath="$PROJECT_DIR$/static/css/highlights/monokai.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/murphy.css" afterPath="$PROJECT_DIR$/static/css/highlights/murphy.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/native.css" afterPath="$PROJECT_DIR$/static/css/highlights/native.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/pastie.css" afterPath="$PROJECT_DIR$/static/css/highlights/pastie.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/perldoc.css" afterPath="$PROJECT_DIR$/static/css/highlights/perldoc.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/tango.css" afterPath="$PROJECT_DIR$/static/css/highlights/tango.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/trac.css" afterPath="$PROJECT_DIR$/static/css/highlights/trac.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/vim.css" afterPath="$PROJECT_DIR$/static/css/highlights/vim.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/vs.css" afterPath="$PROJECT_DIR$/static/css/highlights/vs.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/zenburn.css" afterPath="$PROJECT_DIR$/static/css/highlights/zenburn.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/normalize.css" afterPath="$PROJECT_DIR$/static/css/normalize.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,6 +44,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
               <caret line="123" column="46" lean-forward="true" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -115,6 +156,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MxOnline\zhenzhen" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MxOnline\zhenzhen\blog\static\css" />
       <recent name="E:\MxOnline\zhenzhen\templates" />
@@ -358,11 +402,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30375427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -372,7 +416,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.334471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@zhenzhen" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -594,7 +638,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/css/highlights/bw.css">
+    <entry file="file://$PROJECT_DIR$/static/css/highlights/bw.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -608,14 +652,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/css/normalize.css">
+    <entry file="file://$PROJECT_DIR$/static/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
@@ -690,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -741,18 +777,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhenzhen/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
