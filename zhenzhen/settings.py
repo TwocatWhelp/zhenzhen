@@ -25,7 +25,7 @@ SECRET_KEY = '1xs&ybermsrf14$bop-pn+dw@-)7$w+i%ga()l07we4_s-#o#*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'ubuntu ', '.zhenzhen.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'ubuntu ', '.zhenzhen.date']
 
 
 # Application definition

@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f89b922-1546-4d40-a470-9c30306a9f86" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/autumn.css" afterPath="$PROJECT_DIR$/static/css/highlights/autumn.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/borland.css" afterPath="$PROJECT_DIR$/static/css/highlights/borland.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/bw.css" afterPath="$PROJECT_DIR$/static/css/highlights/bw.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/colorful.css" afterPath="$PROJECT_DIR$/static/css/highlights/colorful.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/default.css" afterPath="$PROJECT_DIR$/static/css/highlights/default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/emacs.css" afterPath="$PROJECT_DIR$/static/css/highlights/emacs.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/friendly.css" afterPath="$PROJECT_DIR$/static/css/highlights/friendly.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/fruity.css" afterPath="$PROJECT_DIR$/static/css/highlights/fruity.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/github.css" afterPath="$PROJECT_DIR$/static/css/highlights/github.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/manni.css" afterPath="$PROJECT_DIR$/static/css/highlights/manni.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/monokai.css" afterPath="$PROJECT_DIR$/static/css/highlights/monokai.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/murphy.css" afterPath="$PROJECT_DIR$/static/css/highlights/murphy.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/native.css" afterPath="$PROJECT_DIR$/static/css/highlights/native.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/pastie.css" afterPath="$PROJECT_DIR$/static/css/highlights/pastie.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/perldoc.css" afterPath="$PROJECT_DIR$/static/css/highlights/perldoc.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/tango.css" afterPath="$PROJECT_DIR$/static/css/highlights/tango.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/trac.css" afterPath="$PROJECT_DIR$/static/css/highlights/trac.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/vim.css" afterPath="$PROJECT_DIR$/static/css/highlights/vim.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/vs.css" afterPath="$PROJECT_DIR$/static/css/highlights/vs.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/highlights/zenburn.css" afterPath="$PROJECT_DIR$/static/css/highlights/zenburn.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/normalize.css" afterPath="$PROJECT_DIR$/static/css/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhenzhen/settings.py" afterPath="$PROJECT_DIR$/zhenzhen/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +20,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zhenzhen/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="123" column="46" lean-forward="true" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
+            <state relative-caret-position="382">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -402,7 +380,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -811,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zhenzhen/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="123" column="46" lean-forward="true" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
+        <state relative-caret-position="382">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding />
         </state>
       </provider>
