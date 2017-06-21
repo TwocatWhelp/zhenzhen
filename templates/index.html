@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block main %}
+      <div class="article-list">
+      {% for post in post_list %}
+          <div class="item">
+      <a href="{{ post.get_absolute_url }}" class="title">{{ post.title }}</a>
+      <div class="status">发布于：{{ post.created_time }} | 阅读：{{ post.views }} | 标签: {{ post.tags.name }} | 分类: {{ post.category.name }}</div>
+      <a href="{{ post.get_absolute_url }}">
+        <div class="content">
+            <p>
+               {{ post.body|truncatechars:54 }}...
+            </p>
+        </div>
+      </a>
+    </div>
+      {% empty %}
+          暂时还没有发布的文章！！！
+      {% endfor %}
+
+  </div>
+  <div class="article-page"><!-- 分页 -->
+      <ul>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">4</a></li>
+      </ul>
+  </div>
+{% endblock main %}
