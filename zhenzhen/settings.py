@@ -122,3 +122,10 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+EMAIL_HOST = 'smtp.sina.com'
+EMAIL_POST = '25'
+EMAIL_HOST_USER = 'zzl_wen@sina.com'
+EMAIL_HOST_PASSWORD = 'qwe123456789'
+EMAIL_USE_TLS = True
+# EMAIL_USE_SSL: ''

@@ -121,3 +121,10 @@ a, body{
   display:block;
 
 }
+
+p{
+  line-height: 1.7em;
+  text-indent: 2em;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}

@@ -3,7 +3,8 @@
 {% block main %}
     <div class="article">
     <h1 class="title">{{ post.title }}</h1>
-    <div class="status">发布于：{{ post.created_time }} | 阅读：{{ post.views }} | 标签: {{ post.tags.name }} | 分类: {{ post.category.name }}</div>
+    <div class="status">发布于：{{ post.created_time }} | 阅读：{{ post.views }} | 标签: {{ post.tags.name }} | 分类: {{ post.category.name }} |
+        <a href="{% url 'blog:post_share' post.id %}">分享</a></div>
     <div class="content">
         <p>
             {{ post.body|safe }}
