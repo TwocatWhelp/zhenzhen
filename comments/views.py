@@ -49,7 +49,8 @@ def post_comment(request, post_pk):
             comment_list = post.comment_set.all()
             context = {'post': post,
                        'form': form,
-                       'comment_list': comment_list
+                       'comment_list': comment_list,
+
                        }
             return render(request, 'article.html', context=context)
             # 不是 post 请求，说明用户没有提交数据，重定向到文章详情页。

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Log-in{% endblock %}
+{% block main %}
+    <h1>登录</h1>
+    <p>please, use the following form to login(请使用以下表单登录):</p>
+    <form action="." method="post">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <p><input type="submit" value="Log-in"></p>
+    </form>
+{% endblock %}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>注册</title>
+    <link rel="stylesheet" href="https://unpkg.com/mobi.css/dist/mobi.min.css">
+    <style>
+        .errorlist {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="flex-center">
+    <div class="container">
+        <div class="flex-center">
+            <div class="unit-1-2 unit-1-on-mobile">
+                <h3>注册</h3>
+                <form class="form" action="{% url 'register' %}" method="post">
+                    {% csrf_token %}
+                    {% for field in form %}
+                        {{ field.label_tag }}
+                        {{ field }}
+                        {{ field.errors }}
+                        {% if field.help_text %}
+                            <p class="help text-small text-muted">{{ field.help_text|safe }}</p>
+                        {% endif %}
+                    {% endfor %}
+                    <button type="submit" class="btn btn-primary btn-block">注册</button>
+                </form>
+                <div class="flex-center top-gap text-small">
+                    <a href="login.html">已有账号登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#  <meta charset="UTF-8">#}
+{#  <meta name="viewport" content="width=device-width, initial-scale=1.0">#}
+{#  <meta http-equiv="X-UA-Compatible" content="ie=edge">#}
+{#  <title>注册</title>#}
+{#  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.css">#}
+{#  <style>#}
+{#  .container-small{#}
+{#    max-width:500px;#}
+{#  }#}
+{#  </style>#}
+{#</head>#}
+{#<body>#}
+{#  <div class="container container-small">#}
+{#    <h1>登录</h1>#}
+{#    <form  >#}
+{#      <div class="alert alert-success">登录成功~ 正在跳转...</div>#}
+{#      <div class="form-group">#}
+{#        <label >用户名</label>#}
+{#        <input class="form-control" type="text">#}
+{#      </div>#}
+{#      <div class="form-group">#}
+{#        <label >密码</label>#}
+{#        <input class="form-control" type="password">#}
+{#      </div>#}
+{#      <div class="form-group">#}
+{#        <btton class="btn btn-primary btn-block" type="submit">登录</btton>#}
+{#      </div>#}
+{#    </form>#}
+{#  </div>#}
+{#</body>#}
+{#</html>#}
