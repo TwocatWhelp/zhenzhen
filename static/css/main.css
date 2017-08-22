@@ -128,3 +128,38 @@ p{
   letter-spacing: 0.5px;
   word-spacing: 2px;
 }
+
+nav{
+
+        border: 2px solid red;
+    }
+    .container{
+
+        height: 30px;
+        display: block;
+        margin: 0 auto;/*设置居中*/
+        background:#22D8EA;
+    }
+        .fl {
+            float: left;
+        }
+        .fr, nav ul,li{
+            float: right;
+
+
+        }
+        .clear-float:after,
+        .clear-float:before{
+            content: ' ';
+            display: block;
+            clear: both;
+        }
+        .container a{
+            color: #454545;
+            font-size: 20px;
+            font-weight:bold;
+
+        }
+        .container a:hover{
+            background:#28A745 ;
+        }

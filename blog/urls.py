@@ -4,7 +4,7 @@ __date__ = '2017/6/17 10:55'
 
 from django.conf.urls import url
 
-from . import views
+from blog import views
 
 app_name = "blog"
 urlpatterns = [

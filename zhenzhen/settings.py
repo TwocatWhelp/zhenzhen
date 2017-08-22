@@ -24,15 +24,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1xs&ybermsrf14$bop-pn+dw@-)7$w+i%ga()l07we4_s-#o#*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-# ALLOWED_HOSTS = ['127.0.0.1', 'ubuntu ', '.zhenzhen.date']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'ubuntu ', '.zhenzhen.date']
+# ALLOWED_HOSTS = []
 
 # Application definition
 
 INSTALLED_APPS = [
-    # 'account',
+    'account',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -43,6 +43,12 @@ INSTALLED_APPS = [
     'comments',
 
 ]
+
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'account.authentication.EmailAuthBackend',
+)
 
 
 MIDDLEWARE = [
@@ -125,13 +131,23 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
 
 EMAIL_HOST = 'smtp.sina.com'
 EMAIL_POST = '25'
 EMAIL_HOST_USER = 'zzl_wen@sina.com'
 EMAIL_HOST_PASSWORD = 'qwe123456789'
 EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'zzl_wen@sina.com'
 # EMAIL_USE_SSL: ''
 
+
+LOGIN_REDIRECT_URL = reverse_lazy('dashboard')
+LOGIN_URL = reverse_lazy('login')
+LOGOUT_URL = reverse_lazy('logout')

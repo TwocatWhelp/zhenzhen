@@ -8,6 +8,8 @@ from django.core.mail import send_mail
 from .forms import EmailPostForm
 
 import markdown
+
+
 # Create your views here.
 
 
@@ -77,3 +79,5 @@ def post_share(request, post_id):
     return render(request, 'share.html', {'post': post,
                                           'form': form,
                                           'sent': sent})
+
+
