@@ -6,6 +6,8 @@ from comments.forms import CommentForm
 from django.views.generic import ListView
 from django.core.mail import send_mail
 from .forms import EmailPostForm
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.views.generic import ListView
 
 import markdown
 
@@ -32,12 +34,34 @@ def detail(request, pk):
 
 
 # 文章列表
-def index(request):
-    # order_by()方法作用是可以进行排序
-    post_list = Post.objects.all().order_by('-created_time')
-    intro = Intro.objects.all()
-    return render(request, 'index.html', context={'post_list': post_list,
-                                                  'intro': intro})
+# def index(request):
+#     # order_by()方法作用是可以进行排序
+#     post_list = Post.objects.all().order_by('-created_time')
+#     intro = Intro.objects.all()
+#     paginator = Paginator(post_list, 5)
+#     page = request.GET.get('page')
+#     try:
+#         contacts = paginator.page(page)
+#     except PageNotAnInteger:
+#         contacts = paginator.page(1)
+#     except EmptyPage:
+#         contacts = paginator.page(paginator.num_pages)
+#
+#     return render(request, 'index.html', context={'post_list': post_list,
+#                                                   'intro': intro,
+#                                                   'contacts': contacts})
+
+
+class IndexView(ListView):
+    model = Post
+    template_name = 'index.html'
+    context_object_name = 'post_list'
+# 指定 paginate_by 属性后开启分页功能，其值代表每一页包含多少篇文章
+    paginate_by = 7
+
+    def get_queryset(self):
+        post_list = Post.objects.all().order_by('-created_time')
+        return post_list
 
 
 # 分类下文章列表

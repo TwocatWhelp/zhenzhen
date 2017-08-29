@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'', include('comments.urls')),
     url(r'^account/', include('account.urls')),
 
+    url('social-auth/', include('social.apps.django_app.urls', namespace='social')),
 ]
 
 

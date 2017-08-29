@@ -45,15 +45,19 @@
                </li>
               </ul>
              {% endif %}
-                {% if request.user.is_authenticated %}
-         Hello{{ request.user.first_name }},
+
+        {% if request.user.is_authenticated %}
+         Hello&nbsp;,{{ request.user.first_name }},
                     <a href="{% url "logout" %}">登出</a>
                {% else %}
-                    <li>
-                    <a href="{% url "login" %}">登录</a>
-                    </li>
+                    <ul>
+                        <li>
+                            <a href="{% url "login" %}">登录</a>&nbsp;&nbsp;&nbsp;
+                            <a href="{% url 'register' %}">注册</a>
+                        </li>
+                    </ul>
+        {% endif %}
 
-               {% endif %}
 {#            <a href="#">登录</a>&nbsp;&nbsp;&nbsp;#}
 {#            <a href="#">注册</a>#}
         </div>
@@ -132,6 +136,7 @@
         </ul>
 {% endif %}
 </div>
+
 
 </body>
 </html>

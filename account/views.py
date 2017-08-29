@@ -46,6 +46,8 @@ def register(request):
             # 为了保护用户的隐私，我们使用User模型(model)的set_password()方法将用户的原密码进行加密后再进行保存操作。
             new_user.set_password(user_form.cleaned_data['password'])
             new_user.save()
+            profile = Profile.objects.create(user=new_user)
+
             return render(request, 'account/register_done.html', {'new_user': new_user})
     else:
         user_form = UserRegistrationForm()

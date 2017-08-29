@@ -145,7 +145,7 @@ nav{
         }
         .fr, nav ul,li{
             float: right;
-
+            display:block;
 
         }
         .clear-float:after,
@@ -163,3 +163,21 @@ nav{
         .container a:hover{
             background:#28A745 ;
         }
+
+
+.pagination-simple{
+    font-family:"Microsoft JhengHei";
+    font-weight:bold;
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    height: 16px;
+    margin-top:12px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.pagination-simple a{
+    text-decoration: none;
+}
+
