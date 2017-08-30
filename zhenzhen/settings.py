@@ -42,9 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'comments',
-    'social.apps.django_app.default',
-    'social_django'
+
 ]
+# 'social.apps.django_app.default',
+#     'social_django'
 
 
 AUTHENTICATION_BACKENDS = [
