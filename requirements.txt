@@ -13,7 +13,7 @@ Markdown==2.6.8
 oauthlib==2.0.2
 olefile==0.44
 paramiko==2.2.1
-Pillow==4.2.1
+Pillow==8.3.2
 pyasn1==0.3.2
 pycparser==2.18
 Pygments==2.2.0
