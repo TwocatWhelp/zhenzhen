@@ -17,7 +17,7 @@ Pillow==4.2.1
 pyasn1==0.3.2
 pycparser==2.18
 Pygments==2.2.0
-PyJWT==1.5.2
+PyJWT==2.4.0
 PyNaCl==1.1.2
 python-openid==2.2.5
 python-social-auth==0.3.6
